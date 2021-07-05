@@ -23,7 +23,7 @@ public class ImcController {
 	@RequestMapping("/")
     @ResponseBody
     String home() {
-      return "Alô, sou o Venício!";
+      return "Alô, sou o Venício";
     }
 	
 	@RequestMapping(value = "/imc", method = RequestMethod.GET)
